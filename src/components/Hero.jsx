@@ -83,6 +83,7 @@ export default function Hero() {
             <Button
               variant="contained"
               color="primary"
+              href="/autobewertung-nrw&umgebung"
               sx={{
                 width: "100%",
                 py: { xs: 1.8, md: 2.6 },
@@ -105,7 +106,7 @@ export default function Hero() {
 
             {/* WhatsApp CTA – nur Mobile */}
             <Button
-              href="https://wa.me/491231234567"
+              href="https://wa.me/491622982160"
               target="_blank"
               rel="noopener"
               startIcon={
@@ -114,7 +115,7 @@ export default function Hero() {
                 </Box>
               }
               sx={{
-                display: { xs: "flex", md: "none" },
+                display: { xs: "flex", md: "flex" },
                 mt: 2.2,
                 width: "100%",
                 py: 1.4,
@@ -177,7 +178,7 @@ export default function Hero() {
                   },
                 }}
               >
-                Appeler un conseiller 📞
+                Einen Berater kontaktieren 📞
               </Button>
             </Box>
           </Box>
@@ -288,7 +289,7 @@ export default function Hero() {
     {/* CTA IM BILD – nur Desktop */}
     <Button
       component="a"
-      href="/auto-verkaufen"
+     href="/autobewertung-nrw&umgebung"
       variant="contained"
       color="primary"
       sx={{

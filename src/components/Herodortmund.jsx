@@ -71,7 +71,7 @@ export default function HeroDortmund() {
             {/* PRIMARY CTA */}
             <Button
               component="a"
-              href="/auto-verkaufen-dortmund"
+              href="/autobewertung-nrw&umgebung"
               variant="contained"
               color="primary"
               sx={{
@@ -96,7 +96,7 @@ export default function HeroDortmund() {
 
             {/* WhatsApp CTA – nur Mobile */}
             <Button
-              href="https://wa.me/491231234567"
+              href="https://wa.me/491622982160"
               target="_blank"
               rel="noopener"
               startIcon={
@@ -105,7 +105,7 @@ export default function HeroDortmund() {
                 </Box>
               }
               sx={{
-                display: { xs: "flex", md: "none" },
+                display: { xs: "flex", md: "flex" },
                 mt: 2.2,
                 width: "100%",
                 py: 1.4,
@@ -241,7 +241,7 @@ export default function HeroDortmund() {
               {/* CTA IM BILD – Desktop */}
               <Button
                 component="a"
-                href="/auto-verkaufen-dortmund"
+                href="/autobewertung-nrw&umgebung"
                 variant="contained"
                 color="primary"
                 sx={{

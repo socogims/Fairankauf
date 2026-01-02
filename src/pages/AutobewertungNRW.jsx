@@ -187,14 +187,10 @@ export default function Home() {
 
       {/* ================= PAGE CONTENT ================= */}
       <Header />
-      <Hero />
-      <WhyChooseUs />
 
-      <FeatureItem />
-      <AblaufSection />
-      <LocationsSection />
-      <AutoBrandsSection />
-      <AutoankaufFAQSection />
+
+         <AutobertungNRW />
+     
       <Footer />
     </>
   );

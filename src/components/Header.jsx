@@ -224,6 +224,7 @@ export default function Header() {
             <Button
               variant="contained"
               color="primary"
+              href="/autobewertung-nrw&umgebung"
               sx={{
                 display: { xs: "none", md: "inline-flex" },
                 borderRadius: 999,

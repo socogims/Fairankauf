@@ -14,6 +14,7 @@ import Autoankaufblog from "./pages/Autoankaufblog";
 import AutoankaufNRW from "./pages/AutoankaufNRW";
 import AutoExportSection from "./pages/Autoexport";
 import Autoankaufdortmund from "./pages/Autoankaufdortmund";
+import AutobewertungNRW from "./pages/AutobewertungNRW";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
            <Route path="/kontakt" element={<ContactSection />} />
            <Route path="/faq-autoankauf" element={<AutoankaufFAQPage />} />
             <Route path="/blog-autoankauf" element={<Autoankaufblog />} />
+             <Route path="/autobewertung-nrw&umgebung" element={<AutobewertungNRW />} />
              <Route path="/auto-export" element={<AutoExportSection />} />
            
         </Routes>

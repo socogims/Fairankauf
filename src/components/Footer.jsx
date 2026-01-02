@@ -19,7 +19,7 @@ import TikTokIcon from "@mui/icons-material/MusicNote";
 export default function Footer() {
   const services = [
     { name: "Auto verkaufen", href: "/autoankauf-nrw" },
-    { name: "Online Fahrzeugbewertung", href: "/autoankauf-nrw" },
+    { name: "Online Fahrzeugbewertung", href:"/autobewertung-nrw&umgebung"},
     { name: "Abholung & Sofortzahlung", href: "#ablauf" },
     { name: "Gebrauchtwagen Ankauf", href: "#faq" },
     { name: "Unfallwagen Ankauf", href: "#fahrzeugzustand" },
